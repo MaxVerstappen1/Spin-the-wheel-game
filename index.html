@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Spin the wheel</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+  </head>
+
+  <body>
+    <div id="app">
+      <div class="wheel-container">
+        <img class="marker" src="marker.png" />
+        <img class="wheel" src="wheel.png" />
+      </div>
+      
+      <div class="options">
+        <label for="winAmount">Select Win Amount:</label>
+        <select id="winAmount">
+          <option value="100">100</option>
+          <option value="250">250</option>
+          <option value="350">350</option>
+          <option value="500">500</option>
+          <option value="1000">1000</option>
+        </select>
+      </div>
+      <div class="button-container">
+        <img class="button" src="button.png" />
+      </div>
+      
+      <div class="display">-</div>
+      <div class="confetti"></div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
